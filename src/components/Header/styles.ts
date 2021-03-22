@@ -20,10 +20,13 @@ export const Cart = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  background-color: #7159c1;
+  border-radius: 6px;
+  padding: 0.8rem 1.2rem;
 
   div {
-    text-align: right;
-    margin-right: 10px;
+    text-align: left;
+    margin-left: 15px;
 
     strong {
       display: block;
@@ -32,7 +35,7 @@ export const Cart = styled(Link)`
 
     span {
       font-size: 12px;
-      color: #999;
+      color: #fff;
     }
   }
 `;
